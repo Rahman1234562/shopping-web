@@ -1,13 +1,13 @@
-import React from 'react';
-import product1 from "../asset/products/1.png";
-import product2 from "../asset/products/2.png";
-import product3 from "../asset/products/3.png";
-import product4 from "../asset/products/4.png";
-import product5 from "../asset/products/5.png";
+
+import product1 from "./asset/1.png";
+import product2 from "./asset/2.png";
+import product3 from "./asset/3.png";
+import product4 from "./asset/4.png";
+import product5 from "./asset/5.png";
 
 
 
-export const Products = [
+export const PRODUCTS = [
     {
         id : 1,
         productName: "Iphone",
