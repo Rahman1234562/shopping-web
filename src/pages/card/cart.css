@@ -20,7 +20,7 @@
 .cart-item .description {
     width: 100%;
     font-size: 25px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
   .input input{
     width: 35px;
