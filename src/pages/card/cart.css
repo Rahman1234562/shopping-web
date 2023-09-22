@@ -1,0 +1,29 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item {
+    height: 250px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    margin: 30px;
+}
+.cart-item img {
+    width: 180px;
+}
+.cart-item .description {
+    width: 100%;
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .input input{
+    width: 35px;
+    text-align: center;
+    font-weight: bolder;
+  }
