@@ -21,13 +21,13 @@ export const Cart = () => {
          }
         })}
       </div>
-      {totalBalance > 0 ?
+      {totalBalance > 0 ?(
       <div className="footer">
                 <p>TotalAmout: ${totalBalance}</p>
                 <button onClick={() => navigate("/")}>Continue Shopping</button>
                 <button onClick={() => checkOut()}>checkOut</button>
             </div>
-          : <h1> Your Cart is Empty</h1>  }
+          ): <h1> Your Cart is Empty</h1>  }
     </div>
   )
 }
