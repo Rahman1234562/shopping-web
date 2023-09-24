@@ -3,28 +3,32 @@ import product1 from "./asset/1.png";
 import product2 from "./asset/2.png";
 import product3 from "./asset/3.png";
 import product4 from "./asset/4.png";
-import product5 from "./asset/5.png";
+import product5 from "./asset/05.jpg";
 import product6 from "./asset/6.jpeg";
 import product7 from "./asset/7.webp";
 import product8 from "./asset/8.webp";
 import product9 from "./asset/9.jpg";
 import product10 from "./asset/10.jpg";
+import product11 from "./asset/11.jpg";
+import product12 from "./asset/12.jpg";
 
 
 
 export const PRODUCTS = [
     {
-        id : 1,
-        productName: "Iphone",
-        price : 199.0,
-        productImage: product1,
+        id : 10,
+        productName: "iphone 15 pro",
+        price : 299.9,
+        productImage: product10,
     },
     {
-        id : 2,
-        productName: "MacBook pro(2023)",
-        price : 399.0,
-        productImage: product2,
+        id : 9,
+        productName: "Men shirt",
+        price : 50.00,
+        productImage: product9,
     },
+
+
     {
         id : 3,
         productName: "cannon M50 camera",
@@ -64,17 +68,33 @@ export const PRODUCTS = [
     },
 
     {
-        id : 9,
-        productName: "Men shirt",
-        price : 50.00,
-        productImage: product9,
+        id : 2,
+        productName: "MacBook pro(2023)",
+        price : 399.0,
+        productImage: product2,
     },
 
     {
-        id : 10,
-        productName: "iphone 15 pro",
-        price : 299.9,
-        productImage: product10,
+        id : 1,
+        productName: "Iphone",
+        price : 199.0,
+        productImage: product1,
     },
+
+    {
+        id : 11,
+        productName: "Croma LED",
+        price : 399.0,
+        productImage: product11,
+    },
+
+    {
+        id : 12,
+        productName: "Croma LED",
+        price : 399.0,
+        productImage: product12,
+    },
+
     
 ]
+
